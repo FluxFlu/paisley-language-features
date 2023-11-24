@@ -1,0 +1,34 @@
+{
+    "name": "paisley-language-features",
+    "displayName": "Paisley Language Features",
+    "description": "Provides language support for Paisley.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": ">=0.9.0-pre.1"
+    },
+    "author": "Missy (the God)",
+    "categories": [
+      "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "paisley",
+                "aliases": [
+                    "Paisley",
+                    "sly"
+                ],
+                "extensions": [
+                    ".sly"
+                ]
+            }
+        ],
+        "grammars": [
+            {
+                "language": "paisley",
+                "scopeName": "source.sly",
+                "path": "./syntaxes/paisley.tmLanguage"
+            }
+        ]
+    }
+}
