@@ -8877,7 +8877,7 @@
       <key>directives</key>
       <dict>
         <key>name</key>
-        <string>comment.line.triple-slash.directive.sly</string>
+        <string>directives</string>
         <key>match</key>
         <string>(^#\S+)</string>
         <key>captures</key>
@@ -8885,7 +8885,7 @@
           <key>1</key>
           <dict>
             <key>name</key>
-            <string>punctuation.definition.comment.sly</string>
+            <string>storage.type.class.jsdoc</string>
           </dict>
         </dict>
       </dict>
